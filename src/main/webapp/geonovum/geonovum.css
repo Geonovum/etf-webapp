@@ -8,6 +8,10 @@ Thijs Brentjens: mantis issue 4697: hide the configuration options to users for 
     display: none !important;
 }
 
+.TestStepMetadata, .AssertionMetadata {
+    display: none !important;
+}
+
 label.mandatoryInput {
     font-weight: bold;
 }
@@ -44,10 +48,12 @@ li.ui-li-static h4 {
     font-size: 0.8em;
 }
 
+
 .TestSuite > h2 > a::before, .TestCase > h3 > a::before {
     font-style: italic;
     font-weight: normal;
 }
+
 
 .TestSuite > h2 > a::before {
     content: "Test suite: ";
